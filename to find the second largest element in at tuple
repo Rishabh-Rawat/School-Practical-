@@ -9,4 +9,4 @@ for j in t:
     if j!=max1:
         if j>max2:
             max2=j
-print("Second Largest element",max2)
+print("Second Largest element",max2) 

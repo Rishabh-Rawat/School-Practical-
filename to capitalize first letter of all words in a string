@@ -5,4 +5,4 @@ for i in range(0,len(st)-1):
         str=str+st[i+1].capitalize()
      else:
         str=str+st[i+1]
-print("New string":,str)
+print("New string:",str)

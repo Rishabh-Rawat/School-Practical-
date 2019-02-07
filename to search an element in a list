@@ -1,0 +1,8 @@
+
+l=eval(input("Enter the list"))
+i=int(input("Enter the element to serach"))
+
+if i in l:
+    print("Element present")
+else:
+    print("Element absent")

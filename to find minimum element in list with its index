@@ -1,0 +1,9 @@
+
+l=eval(input("Enter the list"))
+ind=0
+min=l[ind]
+for i in range(0,len(l)):
+    if l[i]<min:
+        min=l[i]
+        ind=i
+print("Minimum element in the list",min,"at index",ind)

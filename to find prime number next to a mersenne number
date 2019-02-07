@@ -1,0 +1,22 @@
+
+
+n=int(input("Enter the value of n"))
+m=2**n-1
+o=m*m
+print("Mersenne Number=",m)
+
+
+if m==1 or m==0:
+    prime=2
+else:
+    for i in range(m+1,o):
+        c=0
+        for j in range(2,i):
+            if i%j==0:
+                c=1
+        if c==0:
+            prime=i
+            break
+        
+print("Next prime number=",prime)
+ 
